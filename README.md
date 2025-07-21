@@ -51,9 +51,23 @@
     <th>ERD</th>
   </tr>
   <tr>
-    <td></td>
+    <td><img src="https://github.com/pcs1231/Project/blob/main/images/workPlan.png"></td>
+    <td><img src="https://github.com/pcs1231/Project/blob/main/images/RDD.png"></td>
+    <td><img src="https://github.com/pcs1231/Project/blob/main/images/usecase.png"></td>
+    <td><img src="https://github.com/pcs1231/Project/blob/main/images/MenuStructureDiagram.png"></td>
+    <td><img src="https://github.com/pcs1231/Project/blob/main/images/ScreenDefinitionDocument.png"></td>
+    <td><img src="https://github.com/pcs1231/Project/blob/main/images/ERD.png"></td>
+  </tr>
+  <tr>
+    <td><strong>4개의 액터</strong>를 기준으로 각 기능을 구분시킴</td>
+    <td>클라이언트로부터 필요한 <strong>기능</strong>과 액터별 기능 <strong>활성 여부 체크</strong></td>
+    <td><strong>관리자</strong> 액터가 아티스트 커뮤니티 관리 서비스 이용 시</td>
+    <td><strong>팬, 아티스트</strong> 액터가 이용할 수 있는 메뉴구성</td>
+    <td><strong>카카오페이</strong>를 이용한 결제 서비스</td>
+    <td><strong>총 60개</strong>의 테이블을 사용</td>
   </tr>
 </table>
+
 # 🛠기술 스택
 - IDE : `SpringToolSuite4`
 - 데이터베이스 : `Oracle`
