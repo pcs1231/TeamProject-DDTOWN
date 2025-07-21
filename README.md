@@ -15,7 +15,7 @@
     <th>박철순</th>
     <th>원지은</th>
   </tr>
-  <tr>
+  <tr align="center">
     <td>PL</td>
     <td>AA / sub PL</td>
     <td>TA</td>
@@ -41,6 +41,7 @@
 - **8주차** : 업무시스템 개발 완료, 통합테스트 완료, **최종 발표**
 
 # 📁주요 산출물
+><div align="right">각 산출물 중 대표만 사용함</div>
 <table>
   <tr>
     <th>수행계획서</th>
