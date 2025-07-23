@@ -133,3 +133,40 @@
       </td>
     </tr>
   </table>
+
+- **아티스트**
+
+  <table>
+    <caption align="center"><strong>1. 라이브 스트리밍</strong></caption>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div>아티스트가 <strong>실시간으로 팬들과 소통</strong>할 수 있는 라이브 방송 플랫폼을 제공합니다. <strong>안정적인 방송 관리</strong>와 <strong>효율적인 실시간 통신</strong>을 중점을 두었습니다.</div><br/>
+        <ul>
+          <li><strong>방송 생성 및 관리</strong> : 아티스트가 방송을 시작할 때 커뮤니티 프로필 조회, 라이브 전용 채팅 채널 생성, 방송 정보 저장 등 여러 단계를 <strong>하나의 안전한 묶음</strong>으로 처리하여 <strong>데이터 엉킴을 막습니다.</strong>(@Transactional 활용) 또한, 동시에 수많은 시청자가 동시 접속해도 <strong>방송 세션과 시청자 정보를 메모리에 빠르게 저장하고 관리</strong>하며 <strong>시청자가 들어오거나 나갈 때마다 실시간 시청자 수를 업데이트 합니다.</strong>(CurrentHasgMap 활용)</li>
+          <li><strong>실시간 상호작용</strong>: 방송 중 <strong>시그널링 메시지 중계</strong>를 통해 <strong>고품질 영상과 음성 스트리밍을 지원</strong>하고, <strong>방송 채팅방을 통해 실시간으로 메시지를 주고 받을 수 있습니다.</strong>(WebRTC 기술 활용) 또한, 라이브 시작 알림을 받으면 <strong>클릭 한 번으로 방송에 참여</strong>할 수 있어 <strong>편리한 접근성을 제공</strong>합니다.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  <table>
+    <caption align="center"><strong>2. 실시간 메세지(DM)</strong></caption>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div>아티스트와 팬들이 대화를 나눌 수 있는 메시징 플랫폼을 제공합니다. 아티스트 기준에서는 1:N이며 팬 기준에서는 1:1으로  </div><br/>
+        <ul>
+          <li><strong>방송 생성 및 관리</strong> : 아티스트가 방송을 시작할 때 커뮤니티 프로필 조회, 라이브 전용 채팅 채널 생성, 방송 정보 저장 등 여러 단계를 <strong>하나의 안전한 묶음</strong>으로 처리하여 <strong>데이터 엉킴을 막습니다.</strong>(@Transactional 활용) 또한, 동시에 수많은 시청자가 동시 접속해도 <strong>방송 세션과 시청자 정보를 메모리에 빠르게 저장하고 관리</strong>하며 <strong>시청자가 들어오거나 나갈 때마다 실시간 시청자 수를 업데이트 합니다.</strong>(CurrentHasgMap 활용)</li>
+          <li><strong>실시간 상호작용</strong>: 방송 중 <strong>시그널링 메시지 중계</strong>를 통해 <strong>고품질 영상과 음성 스트리밍을 지원</strong>하고, <strong>방송 채팅방을 통해 실시간으로 메시지를 주고 받을 수 있습니다.</strong>(WebRTC 기술 활용) 또한, 라이브 시작 알림을 받으면 <strong>클릭 한 번으로 방송에 참여</strong>할 수 있어 <strong>편리한 접근성을 제공</strong>합니다.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
