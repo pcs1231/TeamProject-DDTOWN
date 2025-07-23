@@ -162,7 +162,27 @@
     </tr>
     <tr>
       <td>
-        <div>아티스트와 팬들이 대화를 나눌 수 있는 메시징 플랫폼을 제공합니다. 아티스트 기준에서는 1:N이며 팬 기준에서는 1:1으로  </div><br/>
+        <div>아티스트와 팬들이 <strong>대화</strong>를 나눌 수 있는 메시징 플랫폼입니다. 아티스트 <strong>다수의 팬들과 1:N 소통</strong>할 수 있고, 팬들은 자신이 좋아하는 아티스트와 <strong>1:1으로 대화하는 듯한 특별한 경험</strong>을 제공합니다. 또한, <strong>파일 첨부 기능</strong>을 지원하여 <strong>풍부한 소통</strong>을 중점으로 두었습니다. </div><br/>
+        <ul>
+          <li><strong>메시지 관리</strong> : 사용자의 권한과 멤버십 상태를 확인하여 <strong>아티스트와 멤버십 구독자에게만 채팅방 접근을 허용</strong>하도록 제어합니다. 또한, 채팅방 생성, 메시지 전송, 파일 첨부 등 메세지 관련 작업은 <strong>안전하게 저장 및 관리</strong>되어 <strong>데이터의 정확성과 무결성</strong>을 보장합니다.(@Transactional 활용)</li>
+          <li><strong>실시간 소통</strong>: <strong>웹소켓(WebSocket)기술</strong>을 활용한 <strong>실시간 메시지 전송</strong>을 지원하여 아티스트와 팬들이 <strong>즉각적으로 소통</strong>할 수 있게 합니다. <strong>이미지 파일 첨부 기능</strong>도 제공하여 대화의 폭을 넓혔습니다. </li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+- **직원**
+
+  <table>
+    <caption align="center"><strong>1. </strong></caption>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div>아티스트가 <strong>실시간으로 팬들과 소통</strong>할 수 있는 라이브 방송 플랫폼을 제공합니다. <strong>안정적인 방송 관리</strong>와 <strong>효율적인 실시간 통신</strong>을 중점을 두었습니다.</div><br/>
         <ul>
           <li><strong>방송 생성 및 관리</strong> : 아티스트가 방송을 시작할 때 커뮤니티 프로필 조회, 라이브 전용 채팅 채널 생성, 방송 정보 저장 등 여러 단계를 <strong>하나의 안전한 묶음</strong>으로 처리하여 <strong>데이터 엉킴을 막습니다.</strong>(@Transactional 활용) 또한, 동시에 수많은 시청자가 동시 접속해도 <strong>방송 세션과 시청자 정보를 메모리에 빠르게 저장하고 관리</strong>하며 <strong>시청자가 들어오거나 나갈 때마다 실시간 시청자 수를 업데이트 합니다.</strong>(CurrentHasgMap 활용)</li>
           <li><strong>실시간 상호작용</strong>: 방송 중 <strong>시그널링 메시지 중계</strong>를 통해 <strong>고품질 영상과 음성 스트리밍을 지원</strong>하고, <strong>방송 채팅방을 통해 실시간으로 메시지를 주고 받을 수 있습니다.</strong>(WebRTC 기술 활용) 또한, 라이브 시작 알림을 받으면 <strong>클릭 한 번으로 방송에 참여</strong>할 수 있어 <strong>편리한 접근성을 제공</strong>합니다.</li>
