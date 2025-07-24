@@ -174,7 +174,7 @@
 - **직원**
 
   <table>
-    <caption align="center"><strong>1. </strong></caption>
+    <caption align="center"><strong>1. 멤버십 관리</strong></caption>
     <tr>
       <th>
         <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
@@ -182,10 +182,64 @@
     </tr>
     <tr>
       <td>
-        <div>아티스트가 <strong>실시간으로 팬들과 소통</strong>할 수 있는 라이브 방송 플랫폼을 제공합니다. <strong>안정적인 방송 관리</strong>와 <strong>효율적인 실시간 통신</strong>을 중점을 두었습니다.</div><br/>
+        <div>아티스트의 멤버십 플랜을 <strong>생성, 운영 및 분석</strong>을 위한 시스템입니다. 모든 멤버십 플랜은 조회하며, 운영 현황을 면밀히 모니터링하고 <strong>통계 데이터</strong>를 기반으로 멤버십 상품의 성과를 분석합니다. 이는 <strong>아티스트의 수익 극대화</strong>와 <strong>팬덤의 지속적인 성장</strong>을 최우선 목표로 합니다.</div><br/>
         <ul>
-          <li><strong>방송 생성 및 관리</strong> : 아티스트가 방송을 시작할 때 커뮤니티 프로필 조회, 라이브 전용 채팅 채널 생성, 방송 정보 저장 등 여러 단계를 <strong>하나의 안전한 묶음</strong>으로 처리하여 <strong>데이터 엉킴을 막습니다.</strong>(@Transactional 활용) 또한, 동시에 수많은 시청자가 동시 접속해도 <strong>방송 세션과 시청자 정보를 메모리에 빠르게 저장하고 관리</strong>하며 <strong>시청자가 들어오거나 나갈 때마다 실시간 시청자 수를 업데이트 합니다.</strong>(CurrentHasgMap 활용)</li>
-          <li><strong>실시간 상호작용</strong>: 방송 중 <strong>시그널링 메시지 중계</strong>를 통해 <strong>고품질 영상과 음성 스트리밍을 지원</strong>하고, <strong>방송 채팅방을 통해 실시간으로 메시지를 주고 받을 수 있습니다.</strong>(WebRTC 기술 활용) 또한, 라이브 시작 알림을 받으면 <strong>클릭 한 번으로 방송에 참여</strong>할 수 있어 <strong>편리한 접근성을 제공</strong>합니다.</li>
+          <li><strong>플랜 관리</strong> : <strong>직관적인 UI</strong>를 통해 멤버십 플랜의 <strong>CRUD</strong>를 손쉽게 관리할 수 있습니다. 특히, <strong>담당 플랜만 수정, 삭제</strong>할 수 있게 접근을 제어하여 <strong>데이터의 안정성</strong>을 높였습니다. 통계 차트로 <strong>인기 플랜 및 월별 매출 추이를 시각적으로 제공</strong>합니다.(Chart.js 활용)</li>
+          <li><strong>안정적인 데이터 처리 및 운영 환경</strong> : <strong>AJAX 통신</strong>을 통해 <strong>실시간으로 데이터</strong>를 처리하고 <strong>트랜잭션 관리</strong>를 하여 <strong>데이터의 일관성과 무결성</strong>을 보장합니다.(@Transactional 활용) 또한, <strong>실시간 피드백</strong>을 제공하며(SweetAlert 활용) <strong>오류 로깅</strong>을 활용하여 시스템의 <strong>안정적인 운영환경</strong>을 구축합니다.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  <table>
+    <caption align="center"><strong>2. 일정 관리</strong></caption>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div>캘린더 인터페이스를 통해 아티스트의 일정을 관리하고 <strong>정확한 정보를 제공</strong>합니다. 담당 아티스트의 <strong>모든 스케줄을 한눈에 보고 효율적으로 관리</strong>하는 데 중점으로 두었습니다.</div><br/>
+        <ul>
+          <li><strong>캘린더 기반 스케줄 관리</strong> : 직관적인 캘린더 UI를 제공함으로 모든 일정을 한 눈에 확인하고 <strong>드래그 앤 드롭(Drag & Drop) 기능</strong>을 통해 일정을 빠르게 조정할 수 있습니다.(FullCalendar.js 활용) 또한, 각 일정에는 <strong>툴팁(Tooltip)</strong>이 제공되어 간략한 정보를 확인할 수 있어 정보 접근성을 높였습니다.</li>
+          <li><strong>유연하고 안정적인 일정 처리</strong> : 일정 등록 시 <strong>카테고리(행사/공연,기타)</strong>를 나누어 관리하며, 특히 '행사/공연' 카테고리 선택 시 <strong>등록된 있는 콘서트 데이터를 자동으로 불러와</strong> 일정에 필요한 정보를 편리하게 채워줍니다. <strong>AJAX 통신</strong>을 통해 <strong>실시간으로 데이터</strong>를 처리하고 <strong>트랜잭션 관리</strong>를 하여 <strong>데이터의 일관성과 무결성</strong>을 보장합니다.(@Transactional 활용) 또한, <strong>'하루 종일'일정 처리 로직</strong>을 포함하여 다양한 형태의 스케줄을 정확하게 관리할 수 있습니다.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+- **관리자**
+
+  <table>
+    <caption align="center"><strong>1. 신고 및 블랙리스트 관리</strong></caption>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div>부적절한 활동으로 신고된 사용자들을 관리하여, 신고 사유와 신고 내역을 제공하여 운영 효율성을 극대화합니다. 이를 통해 서비스의 안정성과 신뢰성을 확보하는데 중점을 두었습니다.</div><br/>
+        <ul>
+          <li><strong>종합적인 신고 관리 및 유연한 제재</strong> : 신고 사유별 신고 목록을 파악부터 개별 신고 상세 내역, 그리고 이전 신고 이력까지 통합적으로 확인합니다. 이를 기반으로 다양한 유형의 신고를 처리하며, 단순 경고를 넘어 기간제 차단 및 영구 차단에 이르는 유연한 제재 방안을 제공합니다. 필요시 즉시 해제 기능으로 신속한 상황 대응이 가능합니다</li>
+          <li><strong>투명하고 견고한 시스템 운영</strong> : 모든 신고 및 블랙리스트 조치에 대한 상세 사유와 담당 관리자 정보를 명확히 기록하여 관리 업무의 투명성을 보장합니다. 더불어 해제된 항목 버튼 비활성화와 같은 논리적인 제어 및 CSRF 방어 보안 기술을 적용하여 시스템의 안정성과 신뢰도를 한층 더 높였습니다.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  <table>
+    <caption align="center"><strong>2. 굿즈샵 관리</strong></caption>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div>굿즈샵에 주문, 취소, 품목, 공지사항을 관리하여 각 페이지 별 통계 데이터를 제공하여 굿즈에 대한 실시간 현황과 동향을 파악할 수 있습니다. 이를 통해 굿즈샵에 관한 </div><br/>
+        <ul>
+          <li><strong>종합적인 신고 관리 및 유연한 제재</strong> : 신고 사유별 신고 목록을 파악부터 개별 신고 상세 내역, 그리고 이전 신고 이력까지 통합적으로 확인합니다. 이를 기반으로 다양한 유형의 신고를 처리하며, 단순 경고를 넘어 기간제 차단 및 영구 차단에 이르는 유연한 제재 방안을 제공합니다. 필요시 즉시 해제 기능으로 신속한 상황 대응이 가능합니다</li>
+          <li><strong>투명하고 견고한 시스템 운영</strong> : 모든 신고 및 블랙리스트 조치에 대한 상세 사유와 담당 관리자 정보를 명확히 기록하여 관리 업무의 투명성을 보장합니다. 더불어 해제된 항목 버튼 비활성화와 같은 논리적인 제어 및 CSRF 방어 보안 기술을 적용하여 시스템의 안정성과 신뢰도를 한층 더 높였습니다.</li>
         </ul>
       </td>
     </tr>
