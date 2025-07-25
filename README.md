@@ -236,10 +236,27 @@
     </tr>
     <tr>
       <td>
-        <div>굿즈샵에 주문, 취소, 품목, 공지사항을 관리하여 각 페이지 별 통계 데이터를 제공하여 굿즈에 대한 실시간 현황과 동향을 파악할 수 있습니다. 이를 통해 굿즈샵에 관한 </div><br/>
+        <div> 복잡한 운영 업무를 <strong>간소화</strong>하고, <strong>통계 데이터를 제공하여 굿즈샵의 지속적인 성장을 목표</strong>로 합니다. <strong>주문, 취소, 품목, 공지사항</strong>와 같은 <strong>핵심 데이터를 효율적이고 안정적으로 제어</strong>를 중점으로 두었습니다.</div><br/>
         <ul>
-          <li><strong>종합적인 신고 관리 및 유연한 제재</strong> : 신고 사유별 신고 목록을 파악부터 개별 신고 상세 내역, 그리고 이전 신고 이력까지 통합적으로 확인합니다. 이를 기반으로 다양한 유형의 신고를 처리하며, 단순 경고를 넘어 기간제 차단 및 영구 차단에 이르는 유연한 제재 방안을 제공합니다. 필요시 즉시 해제 기능으로 신속한 상황 대응이 가능합니다</li>
-          <li><strong>투명하고 견고한 시스템 운영</strong> : 모든 신고 및 블랙리스트 조치에 대한 상세 사유와 담당 관리자 정보를 명확히 기록하여 관리 업무의 투명성을 보장합니다. 더불어 해제된 항목 버튼 비활성화와 같은 논리적인 제어 및 CSRF 방어 보안 기술을 적용하여 시스템의 안정성과 신뢰도를 한층 더 높였습니다.</li>
+          <li><strong>데이터 관리 및 자동화, 비즈니스 통찰력 제공</strong> : <strong>주문, 취소, 품목, 공지사항 핵심 데이터를 검색, 필터링, 페이지네이션하며 관리</strong>합니다. <strong>트랜잭션 관리</strong>를 하여 <strong>데이터의 일관성과 무결성</strong>을 보장합니다.(@Transactional 활용) 또한, <strong>다양한 시각화된 차트</strong>를 통해 굿즈샵의 상태를 <strong>직관적으로 파악</strong>하고 데이터 기반의 <strong>합리적인 의사결정을 지원</strong>합니다.(Chart.js 활용)</li>
+          <li><strong>안정적인 직관적인 운영 환경</strong> : <strong>SpringSecurity 및 CSRF 방어 구현</strong>으로 <strong>보안 조치를 적용하여 안정성을 높였습니다.</strong> 사용자 인터페이스와 경험(UI/UX)를 직관적으로 제공하여 <strong>업무 효율을 향상</strong>시켰으며, 텍스트 편집기를 지원하여 <strong>풍부한 콘텐츠 작성을 지원</strong>합니다.(CKEditor5 활용)</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  <table>
+    <caption align="center"><strong>3. 고객센터 관리</strong></caption>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div>1대1문의와 FAQ의 핵심 데이터를 효율적으로 고객지원 업무를 수행하고, 빠르고 정확한 정보를 제공하는 것을 중점으로 두었습니다.</div><br/>
+        <ul>
+          <li><strong>통합적이고 효율적인 고객 지원 시스템 구축</strong> : <strong>1대1문의와 FAQ를 함께 제공하여</strong>, 다각적인 고객 지원 채널을 구축하고 <strong>고객 지원 프로세스를 통합하여 운영 효율성을 극대화</strong>합니다.</li>
+          <li><strong>편의성과 시스템 안정성 확보</strong> : 텍스트 편집기를 지원하여 <strong>풍부한 콘텐츠 작성을 지원합니다.</strong>(CKEditor5 활용) <strong>검색/필터링 및 페이징과 같은 관리 기능으로 업무 편의성을 높였습니다.</strong> 또한, <strong>Spring Security를 통한 인증 및 권한 관리</strong>를 통해 모든 관리 활동에 대한 <strong>책임 추적성을 확보하여 시스템의 안정성과 신뢰성을 강화</strong>합니다.</li>
         </ul>
       </td>
     </tr>
