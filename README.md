@@ -133,6 +133,77 @@
       </td>
     </tr>
   </table>
+  <table>
+    <caption align="center"><strong>4. 그 외 기능</strong></caption>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">커뮤니티 - 아티스트</td>
+      <td align="center">커뮤니티 - 팬</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">커뮤니티 - 스케줄</td>
+      <td align="center">커뮤니티 - 공지사항</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">FAQ</td>
+      <td align="center">1대1문의</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">마이페이지</td>
+      <td align="center">커뮤니티 개인 프로필</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">DM</td>
+      <td align="center">장바구니 & 찜</td>
+    </tr>
+    <tr>
+      <th colspan="2">
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td colspan="2">이상형월드컵</td>
+    </tr>
+  </table>
 
 - **아티스트**
 
@@ -207,6 +278,61 @@
       </td>
     </tr>
   </table>
+  <table>
+    <caption align="center"><strong>3. 그 외 기능</strong></caption>
+    <tr>
+      <th colspan="2">
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">직원 메인페이지</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">아티스트 커뮤니티 - 게시물 관리</td>
+      <td align="center">아티스트 커뮤니티 - 라이브 요약</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">아티스트 커뮤니티 - 공지사항 관리</td>
+      <td align="center">콘서트 관리 - 콘서트 일정 관리</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">콘서트 관리 - 콘서트 좌석 관리</td>
+      <td align="center">오디션 관리 - 지원자 정보</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">오디션 관리 - 일정 관리</td>
+    </tr>
+  </table>
 
 - **관리자**
 
@@ -259,5 +385,63 @@
           <li><strong>편의성과 시스템 안정성 확보</strong> : 텍스트 편집기를 지원하여 <strong>풍부한 콘텐츠 작성을 지원합니다.</strong>(CKEditor5 활용) <strong>검색/필터링 및 페이징과 같은 관리 기능으로 업무 편의성을 높였습니다.</strong> 또한, <strong>Spring Security를 통한 인증 및 권한 관리</strong>를 통해 모든 관리 활동에 대한 <strong>책임 추적성을 확보하여 시스템의 안정성과 신뢰성을 강화</strong>합니다.</li>
         </ul>
       </td>
+    </tr>
+  </table>
+  <table>
+    <caption align="center"><strong>4. 그 외 기능</strong></caption>
+    <tr>
+      <th colspan="2">
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">관리자 메인페이지</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">아티스트 커뮤니티 관리 - 회원관리</td>
+      <td align="center">아티스트 커뮤니티 관리 - 그룹관리</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">아티스트 커뮤니티 관리 - 아티스트 관</td>
+      <td align="center">공지사항 관리</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">전자결재 - 상신 문서함</td>
+      <td align="center">전자결재 - 받은 결재/참조 문서함</td>
+    </tr>
+    <tr>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+      <th>
+        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      </th>
+    </tr>
+    <tr>
+      <td align="center">전자결재 - 기안서 작성</td>
     </tr>
   </table>
