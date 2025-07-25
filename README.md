@@ -77,7 +77,7 @@
 - 프론트엔드: `HTML5`,`CSS3`,`JAVASCRIPT`,`BootStrap`
 
 # 💡주요 기능
-- **사용자** <br/>
+-  **사용자** <br/>
   
   <table>
     <caption align="center"><strong>1. 카카오페이 간편 결제</strong></caption>
