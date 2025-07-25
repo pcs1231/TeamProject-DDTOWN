@@ -201,7 +201,7 @@
       </th>
     </tr>
     <tr>
-      <td colspan="2">이상형월드컵</td>
+      <td colspan="2" align="center">이상형월드컵</td>
     </tr>
   </table>
 
@@ -445,3 +445,7 @@
       <td align="center">전자결재 - 기안서 작성</td>
     </tr>
   </table>
+
+# ⛳개선 목표
+
+# 📝프로젝트 후기
