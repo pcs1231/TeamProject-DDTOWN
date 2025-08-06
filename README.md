@@ -122,7 +122,7 @@
     <caption align="center"><strong>3. 실시간 알림</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/pcs1231/TeamProject-DDTOWN/blob/main/GIF/User/DDTOWN_alert.gif">
       </th>
     </tr>
     <tr>
