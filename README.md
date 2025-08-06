@@ -8,79 +8,27 @@
 # 👨‍👨‍👧‍👧팀원소개
 <table>
   <tr>
-    <th></th>
-    <th>박건우 (PL)</th>
-    <th>강유정 (AA/subPL)</th>
-    <th>김승연 (TA)</th>
-    <th>이혜리 (QA/UA)</th>
-    <th>김예찬 (DA)</th>
-    <th>박철순 (BA)</th>
-    <th>원지은 (QA/UA)</th>
+    <th>박건우</th>
+    <th>강유정</th>
+    <th>김승연</th>
+    <th>이혜리</th>
+    <th>김예찬</th>
+    <th>박철순</th>
+    <th>원지은</th>
   </tr>
   <tr>
-    <td><sub>기능</sub></td>
-    <td>
-      <ul>
-        <li><sub>기업 홈페이지</sub></li>
-        <li><sub>아티스트 프로필</sub></li>
-        <li><sub>라이브 스트리밍</sub></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><sub>DM</sub></li>
-        <li><sub>콘서트</sub></li>
-        <li><sub>멤버십</sub></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><sub>로그인</sub></li>
-        <li><sub>회원가입</sub></li>
-        <li><sub>커뮤니티</sub></li>
-        <li><sub>커뮤니티 프로필</sub></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><sub>오디션</sub></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><sub>실시간 알림</sub></li>
-        <li><sub>마이페이지</sub></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><sub>커뮤니티</sub></li>
-        <li><sub>이상형 월드컵</sub></li>
-        <li><sub>고객센터</sub></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><sub>굿즈샵</sub></li>
-        <li><sub>찜</sub></li>
-        <li><sub>장바구니</sub></li>
-        <li><sub>결제</sub></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>PL</td>
+    <td>AA / subPL</td>
+    <td>TA</td>
+    <td>QA / UA</td>
+    <td>DA</td>
+    <td>BA</td>
+    <td>QA / UA</td>
   </tr>
 </table>
 
 # 🕒개발 기간
-**2025-04-30 ~ 2025-07-04 총66일**
+**2025-05-02 ~ 2025-07-04 2개월**
 
 <img src="https://github.com/pcs1231/Project/blob/main/images/projectSchedule.png" >
 
@@ -124,10 +72,12 @@
 
 # 🛠기술 스택
 - IDE : `SpringToolSuite4`
+- 언어 : `Java`,`JavaScript`
+- 프레임워크 : `SpingBoot`,`mybatis`
 - 데이터베이스 : `Oracle`
 - 서버 : `ApacheTomcat`
 - 형상관리 : `svn`
-- 프론트엔드: `HTML5`,`CSS3`,`JAVASCRIPT`,`BootStrap`
+- 프론트엔드: `HTML5`,`CSS3`,`BootStrap`
 
 # 💡주요 기능
 -  **사용자** <br/>
