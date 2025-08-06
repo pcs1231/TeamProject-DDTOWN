@@ -251,7 +251,7 @@
     <caption align="center"><strong>1. 멤버십 관리</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/9d2d4443-0958-4c85-83d0-bdc3b35c41cf">
       </th>
     </tr>
     <tr>
@@ -268,7 +268,7 @@
     <caption align="center"><strong>2. 일정 관리</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/ff2a65ca-9b28-4d4a-8f4a-27eb08a373b1">
       </th>
     </tr>
     <tr>
@@ -285,7 +285,7 @@
     <caption align="center"><strong>3. 그 외 기능</strong></caption>
     <tr>
       <th colspan="2">
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/fa909ef5-268a-4490-9dae-3a9cd37b7661">
       </th>
     </tr>
     <tr>
@@ -293,10 +293,10 @@
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/11bd368c-679b-44cd-aa80-e12dfdddd6cd">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/5ccd280e-9a5d-4065-875c-4956e3f91538">
       </th>
     </tr>
     <tr>
@@ -305,10 +305,10 @@
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/0e6c0ede-ec44-4400-9f9b-f42242cc0954">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/0148603c-db7c-4f16-a0c2-c11810bf84aa">
       </th>
     </tr>
     <tr>
@@ -317,10 +317,10 @@
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/4d06fe1f-5a97-4c01-a606-9b901ed5a81b">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/18a91f87-1a44-400c-bb57-06b3a0aa2551">
       </th>
     </tr>
     <tr>
@@ -328,12 +328,12 @@
       <td align="center">오디션 관리 - 지원자 정보</td>
     </tr>
     <tr>
-      <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      <th colspan="2">
+        <img src="https://github.com/user-attachments/assets/c320488d-e4bb-412f-9d8e-9b55f7a1a4c5">
       </th>
     </tr>
     <tr>
-      <td align="center">오디션 관리 - 일정 관리</td>
+      <td colspan="2" align="center">오디션 관리 - 일정 관리</td>
     </tr>
   </table>
 
