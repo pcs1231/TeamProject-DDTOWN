@@ -122,7 +122,7 @@
     <caption align="center"><strong>3. 실시간 알림</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/TeamProject-DDTOWN/blob/main/GIF/User/DDTOWN_alert.gif">
+        <img src="https://github.com/user-attachments/assets/f4c41787-ea2b-4b14-93b6-ddb7a25bf209">
       </th>
     </tr>
     <tr>
@@ -176,7 +176,7 @@
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/1a63008a-47f8-41f3-9c84-53a66f8bc889">
       </th>
       <th>
         <img src="https://github.com/user-attachments/assets/56e33ab8-301c-4a19-bef0-8e1380a9a85c">
@@ -191,7 +191,7 @@
         <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/26ce9718-9575-42f8-90ad-d80abb61083e">
       </th>
     </tr>
     <tr>
@@ -200,7 +200,7 @@
     </tr>
     <tr>
       <th colspan="2">
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/d6fd34ed-b758-4177-8bd7-dc3169054893">
       </th>
     </tr>
     <tr>
