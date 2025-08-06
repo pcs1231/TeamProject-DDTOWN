@@ -143,7 +143,7 @@
         <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/6237fc86-d79b-4351-9ecf-b0a0ec4dbc7e">
       </th>
     </tr>
     <tr>
