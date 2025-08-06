@@ -104,7 +104,7 @@
     <caption align="center"><strong>2. 콘서트 예매</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/bf92390f-ac87-4877-9508-16a0dffd1a76">
       </th>
     </tr>
     <tr>
@@ -140,7 +140,7 @@
     <caption align="center"><strong>4. 그 외 기능</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/d088dd44-2ca5-4031-9d7e-e20660806182">
       </th>
       <th>
         <img src="https://github.com/user-attachments/assets/6237fc86-d79b-4351-9ecf-b0a0ec4dbc7e">
@@ -152,10 +152,10 @@
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/f8d0e438-3f76-4e88-a5c4-0d22baf70553">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/25586b64-55ae-475d-97fd-baa975730fdd">
       </th>
     </tr>
     <tr>
@@ -179,7 +179,7 @@
         <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/56e33ab8-301c-4a19-bef0-8e1380a9a85c">
       </th>
     </tr>
     <tr>
