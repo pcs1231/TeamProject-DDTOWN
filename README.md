@@ -231,7 +231,7 @@
     <caption align="center"><strong>2. 실시간 메세지(DM)</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/9b2b27ad-2fe4-45f2-835f-73f68815018b">
       </th>
     </tr>
     <tr>
