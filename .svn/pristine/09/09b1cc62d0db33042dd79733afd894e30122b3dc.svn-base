@@ -1,0 +1,237 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java"%>
+<%@ taglib uri="jakarta.tags.core" prefix="c"%>
+<%@ taglib uri="jakarta.tags.fmt" prefix="fmt"%>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DDTOWN 아티스트 인기 투표</title>
+<style type="text/css">
+
+div#voteGate {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.card {
+	cursor: pointer;
+	position: absolute;
+	transition : 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0px 2px 10px #adaaad;
+    
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/resources/css/pages/mainservice_common.css" />
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/resources/css/pages/artist_community.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+<script type="text/javascript">
+
+function getPageCenter() {
+  const pageWidth = window.innerWidth;
+  const pageHeight = window.innerHeight;
+  const centerX = pageWidth / 2;
+  const centerY = pageHeight / 2;
+
+  return { x: centerX, y: centerY };
+}
+
+
+$(function(){
+	
+	let {animate} = anime;
+	console.log(animate)
+	
+	const center = getPageCenter();
+	console.log("페이지 중앙 x 좌표:", center.x);
+	console.log("페이지 중앙 y 좌표:", center.y);
+	
+	let artistArr = [];
+	let artistList = [];
+	let cnt = 0;
+	
+	let temp = 2;
+	let artistCnt = 0;	// 라운드에 참가할 아티스트의 수
+	
+	let totalRound = 0;		// 진행될 총 라운드 수
+	
+	let curOne = ``;
+	let curTwo = ``;
+	
+	let nextRoundArtist = [];
+	
+	$("#btnStartVote").on("click",function(){
+		console.log("wer")
+		
+		$.ajax({
+			url : '/community/worldcup/artist/list',
+			type : 'get',
+			success : function(res){
+				console.log(res);
+				
+				let html = ``;
+				for(let i=0; i<res.length; i++){
+					let artist = res[i];
+					html = `
+						<div class="card" style="width: 18rem; height: auto;" data-artNo= \${artist.artNo}>
+						  <img src="\${artist.artProfileImg}" class="card-img-top" alt="..." style="height : 200pt">
+						  <div class="card-body">
+						    <h5 class="card-title">\${artist.artNm}</h5>
+						    <p class="card-text">\${artist.artContent}</p>
+						  </div>
+						</div>
+					`;
+					artistList.push(html);
+				}
+				
+				for(let i=0; i<res.length; i++){
+					artistCnt = temp
+					temp = temp * 2 ;
+					if(temp > res.length){
+						break;
+					}
+				}
+				
+				totalRound = artistCnt / 2;		// 진행될 총 라운드 수
+				
+				for(let i=res.length - 1; i>0; i--){
+					let j = Math.floor(Math.random() * (i + 1));
+				    [artistList[i], artistList[j]] = [artistList[j], artistList[i]];
+				}
+				
+				artistArr =  artistList.slice(0, artistCnt);
+				console.log(artistArr);
+				
+				suffle();
+				
+				
+			},
+			error : function(error){
+				console.log(error.status);
+			}
+		});
+	});
+	
+	
+	
+	$("#suffle").on("click",function(){
+		let artistList = document.querySelectorAll(".card");
+		artistList.forEach( artist => {
+			console.log("111: " , artist.getBoundingClientRect())
+			let artistPosition = artist.getBoundingClientRect();
+			const initialX = artistPosition.left;
+        	const initialY = artistPosition.top;
+			const translateX_amount = Math.floor(center.x) - Math.floor(initialX);
+        	const translateY_amount = Math.floor(center.y) - Math.floor(initialY);
+        	console.log("translateX_amount : ", initialX);
+        	console.log("center.x : ", Math.floor(center.x));
+			animate(artist,
+				{
+					translateX: translateX_amount,
+		            translateY: translateY_amount,
+		            duration: 800,
+		            easing: 'easeInOutQuad',
+				}
+			)
+		})
+		
+	});
+	
+	$("#artistList2").on("click",function(){
+		suffle();
+		console.log("artistArr: ", artistArr);
+		console.log("artistArrLength: ", artistArr.length);
+		nextRoundArtist.push(curTwo);
+		console.log(nextRoundArtist);
+	});
+	
+	function suffle(){
+		if(artistArr.length == 0){
+			artistArr = [];
+			artistArr = nextRoundArtist;
+			nextRoundArtist = [];
+			totalRound = (artistArr.length + 1) + "강";
+			$("#roundInfo").html(totalRound);
+		}
+		
+		let i = Math.floor(Math.random() * artistArr.length);
+		let j = Math.floor(Math.random() * artistArr.length);
+		console.log("i : ", i);
+		console.log("j : ", j);
+		
+		let suffle = setInterval(function(){
+			
+			if(i == j){
+				j = Math.floor(Math.random() * artistArr.length);
+			}
+			let cardHtml = artistArr[Math.floor(Math.random() * artistArr.length)];
+			let cardTwoHtml = artistArr[Math.floor(Math.random() * artistArr.length)];
+			
+			$("#artistList").html(cardHtml);
+			$("#artistList2").html(cardTwoHtml);
+			cnt++;
+			if(cnt == 100){
+				clearInterval(suffle);
+				console.log("clearInterval iii: ", i);
+				console.log("clearInterval jjj: ", j);
+				console.log("artistArr[i] : ", artistArr[i]);
+				console.log("artistArr[j] : ", artistArr[j]);
+				curOne = artistArr[i];
+				curTwo = artistArr[j];
+				
+				console.log("curOne : ", curOne);
+				console.log("curTwo : ", curTwo);
+				
+				$("#artistList").html(curOne);
+				$("#artistList2").html(curTwo);
+				
+				artistArr = artistArr.filter((v,idx) => idx != i && idx != j);
+// 				artistArr = artistArr.filter(v => v != j);
+				
+				
+				animate(".card",
+					{
+						scale: [.5,1]
+					}
+				)
+				cnt = 0;
+			}
+		},1)
+	}
+	
+});
+</script>
+</head>
+<body class="vote-page">
+    <jsp:include page="/WEB-INF/views/modules/communityHeader.jsp" />
+
+	<div class="vote-container">
+        <div class="vote-header">
+            <h1>DDTOWN 아티스트 인기 투표</h1>
+            <p>당신의 최애 아티스트를 선택해주세요!</p>
+            <div class="round-info" id="roundInfo">32강</div> </div>
+
+        <div class="vote-gate" id="voteGate">
+            <div class="message" id="gateMessage">이상형 월드컵에 참여하여 DDTOWN 최고 인기 아티스트를 뽑아주세요!</div>
+            <button class="btn-start-vote" id="btnStartVote">월드컵 시작하기</button>
+            <button id="suffle">진짜 시작</button>
+            <button class="btn-view-ranking" id="btnViewLastWeekRanking" style="display: none;">지난 주 순위 보기</button>
+        </div>
+	    <div class="vote-arena" id="voteArena" style="display: flex;">
+            <div id="artistList">
+	    	</div>
+            <div class="vs-text">VS</div>
+            <div id="artistList2">
+	    	</div>
+        </div>
+    </div>
+</body>
+</html>
