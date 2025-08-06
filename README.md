@@ -343,7 +343,7 @@
     <caption align="center"><strong>1. 신고 및 블랙리스트 관리</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/3c8550de-8ba3-44d6-bdfe-7cf38a25b7bc">
       </th>
     </tr>
     <tr>
@@ -360,7 +360,7 @@
     <caption align="center"><strong>2. 굿즈샵 관리</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/efae9f11-84d5-4afd-9ca9-3f6ff5ffe440">
       </th>
     </tr>
     <tr>
@@ -377,7 +377,7 @@
     <caption align="center"><strong>3. 고객센터 관리</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/029baf6c-ac9e-4248-ae5e-47c35875566e">
       </th>
     </tr>
     <tr>
@@ -402,10 +402,10 @@
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/d213aff5-a7a6-4261-9edc-115cde6e1b6d">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/71b2f574-125e-4f69-bee4-6d0a8b5e7ba0">
       </th>
     </tr>
     <tr>
@@ -414,22 +414,22 @@
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/1a880891-0d73-4673-aa56-15c4e430b66c">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/32028b60-52a2-4303-b9d0-a1881832be26">
       </th>
     </tr>
     <tr>
-      <td align="center">아티스트 커뮤니티 관리 - 아티스트 관</td>
+      <td align="center">아티스트 커뮤니티 관리 - 아티스트 관리</td>
       <td align="center">공지사항 관리</td>
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/85ed59a4-7584-428b-a88c-5a4d0cf9d7b5">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/204bdba1-0a6c-4b99-b9ab-c3a1fb64df1c">
       </th>
     </tr>
     <tr>
@@ -437,15 +437,12 @@
       <td align="center">전자결재 - 받은 결재/참조 문서함</td>
     </tr>
     <tr>
-      <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
-      </th>
-      <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+      <th colspan="2">
+        <img src="https://github.com/user-attachments/assets/a06bf0dc-7c83-46ed-8daf-c29d28ab1279">
       </th>
     </tr>
     <tr>
-      <td align="center">전자결재 - 기안서 작성</td>
+      <td colspan="2" align="center">전자결재 - 기안서 작성</td>
     </tr>
   </table>
 
