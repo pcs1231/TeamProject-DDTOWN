@@ -86,7 +86,7 @@
     <caption align="center"><strong>1. 카카오페이 간편 결제</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/f52fc4dc-fec0-4f52-8ed1-15eff308830f">
       </th>
     </tr>
     <tr>
