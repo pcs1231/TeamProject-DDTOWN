@@ -214,7 +214,7 @@
     <caption align="center"><strong>1. 라이브 스트리밍</strong></caption>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/ec4a9d1b-e2fd-43e2-bdd3-8f345c04eaac">
       </th>
     </tr>
     <tr>
