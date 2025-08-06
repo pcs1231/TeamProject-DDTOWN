@@ -188,7 +188,7 @@
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/7abb2317-2556-4d9e-985b-31e6861f324b">
       </th>
       <th>
         <img src="https://github.com/user-attachments/assets/26ce9718-9575-42f8-90ad-d80abb61083e">
