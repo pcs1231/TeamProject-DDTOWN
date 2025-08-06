@@ -164,10 +164,10 @@
     </tr>
     <tr>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/7e472b56-7d4c-4e54-a345-15030aebe817">
       </th>
       <th>
-        <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
+        <img src="https://github.com/user-attachments/assets/e700641c-3dc0-4bc3-a037-6d72a40d293b">
       </th>
     </tr>
     <tr>
