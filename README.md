@@ -394,7 +394,7 @@
     <caption align="center"><strong>4. 그 외 기능</strong></caption>
     <tr>
       <th colspan="2">
-        <img src="[https://github.com/pcs1231/Project/blob/main/images/mainPage.png](https://github.com/user-attachments/assets/ac656c92-2d2d-4815-bde1-32b1d4c155ad">
+        <img src="https://github.com/user-attachments/assets/ac656c92-2d2d-4815-bde1-32b1d4c155ad">
       </th>
     </tr>
     <tr>
