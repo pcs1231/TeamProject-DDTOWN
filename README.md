@@ -394,7 +394,7 @@
     <caption align="center"><strong>4. 그 외 기능</strong></caption>
     <tr>
       <th colspan="2">
-        <img src="https://github.com/user-attachments/assets/ac656c92-2d2d-4815-bde1-32b1d4c155ad">
+        <img src="https://github.com/user-attachments/assets/a479adaf-a4ec-4a1e-b433-726e1bf36d2f">
       </th>
     </tr>
     <tr>
